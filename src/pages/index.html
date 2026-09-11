@@ -1,0 +1,145 @@
+<!-- ================= HERO: particles + stacked title (Gibson) ================= -->
+<section class="hero hero--home" data-theme="paper" data-surface="sun" aria-labelledby="hero-title">
+  {{culture}}
+  <div class="wrap">
+    <h1 class="hero__title" id="hero-title" data-fit="1" data-fit-measure=".hero__line--b > span" data-fit-max="250">
+      <span class="hero__line hero__line--a"><span style="--d:.05s">The future of</span></span>
+      <span class="hero__line hero__line--b"><span style="--d:.15s">therapeutics</span></span>
+      <span class="hero__line hero__line--c"><span style="--d:.25s">is now</span></span>
+    </h1>
+    <div class="hero__foot">
+      <p class="hero__lede hero__rise" style="--d:.55s">We revolutionize the journey from molecule design to clinical manufacturing, with a vertically integrated business model offering everything you need under one roof.</p>
+      <a class="btn hero__rise" style="--d:.7s" href="registry.html">Explore our Rare Disease Registry <span class="btn__icon">{{arrow}}</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= WHAT SETS US APART: sticky views ================= -->
+<section class="section apart" data-theme="paper" data-apart aria-labelledby="apart-title">
+  <div class="wrap">
+    <div class="head">
+      <h2 class="d-1" id="apart-title">What sets us apart</h2>
+    </div>
+    <div class="apart__grid">
+      <div class="apart__stage">
+        <!-- ⚠ IMAGE PLACEHOLDERS: drop an <img src="images/…" alt="…"> inside each .view (it covers the placeholder). 4:3 crop, ~1600×1200. -->
+        <div class="views">
+          <figure class="view" data-surface="navy">
+            {{ph:4:3}}
+          </figure>
+          <figure class="view" data-surface="teal">
+            {{ph:4:3}}
+          </figure>
+          <figure class="view" data-surface="sage">
+            {{ph:4:3}}
+          </figure>
+          <figure class="view" data-surface="orange">
+            {{ph:4:3}}
+          </figure>
+          <div class="views__ticks" aria-hidden="true"><span class="views__tick"></span><span class="views__tick"></span><span class="views__tick"></span><span class="views__tick"></span></div>
+        </div>
+      </div>
+      <div class="apart__steps">
+        <article class="step is-active">
+          <h3 class="d-2">A Vertically Integrated Platform</h3>
+          <p class="lede">We combine protein engineering, disease modeling, therapeutic development, and manufacturing in a single organization.</p>
+        </article>
+        <article class="step">
+          <h3 class="d-2">Modeling + Therapeutics</h3>
+          <p class="lede">We develop patient-derived iPSC and mesenchymal stem cell disease models alongside therapeutic programs, creating a “human mirror” to test therapies before clinical development.</p>
+        </article>
+        <article class="step">
+          <h3 class="d-2">Multi-Modality Expertise</h3>
+          <p class="lede">We work across monoclonal antibodies, bispecifics, trispecifics, ADCs, nanobodies, fusion proteins, cell therapies, growth factors, and regenerative medicine applications.</p>
+        </article>
+        <article class="step">
+          <h3 class="d-2">Under One Roof</h3>
+          <p class="lede">With our own laboratory, pilot manufacturing, purification, and process development capabilities, we handle it all.</p>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PIPELINE + SIGNATURE THERAPEUTICS ================= -->
+<section class="section section--flush-top" data-theme="paper" aria-label="Pipeline and therapeutics">
+  <div class="wrap">
+    <article class="chapter">
+      <div class="chapter__media"><a class="tile" data-surface="teal" href="pipeline.html" tabindex="-1" aria-hidden="true">{{strands}}</a></div>
+      <div class="chapter__text">
+        <h2 class="d-2"><a class="hlink" href="pipeline.html">Pipeline</a></h2>
+        <p class="lede">From rare disease and traumatic brain injury to oncology, regenerative medicine, inflammation, cell therapy, and beyond</p>
+        {{go|pipeline.html|Pipeline}}
+      </div>
+    </article>
+
+    <article class="chapter chapter--flip">
+      <div class="chapter__media"><!-- ⚠ IMAGE PLACEHOLDER: add <img src="images/…" alt=""> inside the tile. 5:4 crop. -->
+      <a class="tile" data-surface="sun" href="therapeutics.html" tabindex="-1" aria-hidden="true">{{ph:5:4}}</a></div>
+      <div class="chapter__text">
+        <h2 class="d-2"><a class="hlink" href="therapeutics.html">Our Signature Therapeutics</a></h2>
+        <p class="lede">Opening the door to exciting possibilities</p>
+        {{go|therapeutics.html|Our Signature Therapeutics}}
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ================= OUR STORY: full-width interruptor ================= -->
+<section class="interrupt" data-theme="navy" aria-labelledby="story-title">
+  <div class="interrupt__media" aria-hidden="true">
+    <img src="images/glass-1592.jpg" srcset="images/glass-900.jpg 900w, images/glass-1592.jpg 1592w" sizes="100vw" alt="" loading="lazy" decoding="async">
+  </div>
+  <div class="wrap">
+    <h2 class="h-4 interrupt__label" id="story-title"><a class="hlink" href="about.html">Our Story</a></h2>
+    <div class="interrupt__row">
+      <p class="fill" data-fill>Founded in 2024 to bring modern therapeutics into reach and save more lives</p>
+      <a class="go go--lg" href="about.html" aria-label="Our Story">{{arrow}}</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= REGISTRY SPOTLIGHT (full yellow shift) ================= -->
+<section class="section" data-theme="yellow" aria-labelledby="reg-title">
+  <div class="wrap spot">
+    <div class="spot__text">
+      <h2 class="d-2" id="reg-title">More than 300 million people around the world live with a rare disease.</h2>
+      <p class="lede">Our rare disease tissue registry—a repository of genomic data, tissue, and blood samples—provides essential resources to help researchers and clinicians learn more about these conditions.</p>
+      <div class="actions">
+        <a class="btn" href="registry.html">Explore the registry <span class="btn__icon">{{arrow}}</span></a>
+        <a class="tlink" href="registry.html#patients">Information for patients {{arrow}}</a>
+      </div>
+    </div>
+    <figure class="population" data-surface="navy" aria-hidden="true">
+      <canvas data-population></canvas>
+      <figcaption class="population__note">Each condition affects a small number of geographically dispersed patients.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ================= NEWS (no tags) ================= -->
+<section class="section" data-theme="paper" aria-labelledby="news-title">
+  <div class="wrap">
+    <div class="head">
+      <h2 class="d-1" id="news-title">Latest News &amp; Events</h2>
+      <a class="tlink" href="news.html">View all news {{arrow}}</a>
+    </div>
+    <div class="cards cards--home">
+      <article class="card card--feature">
+        <div class="card__art" data-surface="sage">{{cells:3}}</div>
+        <div class="card__body">
+          <h3 class="card__title"><a href="news.html#article-1">ORF Bio Launches Rare Disease Tissue Registry</a></h3>
+          <p class="card__text">Our new registry provides essential resources to help researchers and clinicians learn more about rare diseases.</p>
+        </div>
+      </article>
+      <article class="card">
+        <h3 class="card__title"><a href="news.html#webinar">Join ORF Bio at the NORD Breakthrough Summit</a></h3>
+        <p class="card__text">At the summit, which takes place October 25–27 in Washington, DC, we’ll introduce our Rare Disease Tissue Registry and integrated biorepository.</p>
+      </article>
+      <article class="card">
+        <h3 class="card__title"><a href="news.html#publication">Meet Our Team at BIO-Europe 2026</a></h3>
+        <p class="card__text">Learn more about opportunities to partner with us. This year’s conference takes place November 9–11 in Cologne.</p>
+      </article>
+    </div>
+  </div>
+</section>
