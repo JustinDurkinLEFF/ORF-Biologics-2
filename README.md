@@ -1,6 +1,6 @@
-# ORF Bio — v10 (v9 structure × colour-field system)
+# ORF Bio — v10 (v9 structure × color-field system)
 
-v9's pages, copy, logos, fonts and images, restyled with the colour-field system from the previous rebuild.
+v9's pages, copy, logos, fonts and images, restyled with the color-field system from the previous rebuild.
 Nine pages: index, therapeutics, pipeline, services, news, about, registry, contact, distributors.
 
 ## Preview
@@ -16,7 +16,7 @@ so add the Netlify preview domain in the kit's settings or the site falls back t
 ## Changes
 
 ### Round 2 (11 Sep)
-- Global: nav is always the dark pill with the white logo (keeps its own colours while the page morphs).
+- Global: nav is always the dark pill with the white logo (keeps its own colors while the page morphs).
 - Home: stock image band removed. What-sets-us-apart views are now 4:3 (shorter); step spacing unchanged.
   Signature Therapeutics tile is an image placeholder. Registry segment restored to the previous full yellow
   shift with its original copy and dot field.
@@ -27,7 +27,7 @@ so add the Netlify preview domain in the kit's settings or the site falls back t
 - Distributors: rebuilt to the v9 reference: region tabs in a row, distributor links below. In the main nav (after Registry) and footer.
 
 ### Round 1
-- v9 structure, copy, logos, Gibson; colour-field system from the previous rebuild.
+- v9 structure, copy, logos, Gibson; color-field system from the previous rebuild.
 - Hero: particles + stacked title in Gibson, softer bottom radius, scroll progress line removed.
 - Sticky "views" with image placeholders; Our Story full-width interruptor; Pipeline strands animation kept.
 - News tags removed; footer CTA struck, Contact Us button in the footer; page headers shortened; "Next" links removed.
