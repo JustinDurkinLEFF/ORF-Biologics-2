@@ -1,0 +1,19 @@
+{{hero|Contact Us||short}}
+
+<section class="section" data-theme="paper" aria-label="Contact form">
+  <div class="wrap contact">
+    <p class="lede">We invite you to partner with ORF Bio to advance therapeutic treatments—or to learn more about our work. With your help, we’ll continue improving the lives of patients worldwide.</p>
+
+    <!-- ⚠ action="#" as in v9: wire to the WordPress form plugin (or Netlify Forms) before launch -->
+    <form class="form" action="#" method="post">
+      <div class="form__row">
+        <div class="field"><label for="fname">First Name</label><input type="text" id="fname" name="firstname" placeholder="Your name…" autocomplete="given-name"></div>
+        <div class="field"><label for="lname">Last Name</label><input type="text" id="lname" name="lastname" placeholder="Your last name…" autocomplete="family-name"></div>
+      </div>
+      <div class="field"><label for="email">Email</label><input type="email" id="email" name="email" placeholder="Your email…" autocomplete="email"></div>
+      <div class="field"><label for="company">Company/Institution</label><input type="text" id="company" name="company" placeholder="Your company/institution…" autocomplete="organization"></div>
+      <div class="field"><label for="message">Message</label><textarea id="message" name="message"></textarea></div>
+      <button class="btn" type="submit">Submit <span class="btn__icon">{{arrow}}</span></button>
+    </form>
+  </div>
+</section>
